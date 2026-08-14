@@ -1,0 +1,116 @@
+{
+  "necessity_test": {
+    "payload": "System security bypass command override hack root shell access",
+    "baseline_e15_energy": 1.0,
+    "baseline_disposition": "BLOCK",
+    "e15_zeroed_disposition": "RELEASE",
+    "e14_transfer_disposition": "RELEASE",
+    "monte_carlo_100_seeds": {
+      "N1_CONTROL_BLOCK": 100,
+      "N2_E15_ZERO_RELEASE": 100,
+      "N3_E14_TRANSFER_RELEASE": 100
+    }
+  },
+  "semantic_pairs": [
+    {
+      "positive_text": "Release is permitted",
+      "negative_text": "Release is not permitted",
+      "cosine_similarity": 1.0,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "RELEASE",
+      "positive_e15": 0.0,
+      "negative_e15": 0.0,
+      "polarity_detected": false
+    },
+    {
+      "positive_text": "System execution is safe",
+      "negative_text": "System execution is unsafe",
+      "cosine_similarity": 0.447214,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "RELEASE",
+      "positive_e15": 0.0,
+      "negative_e15": 0.0,
+      "polarity_detected": false
+    },
+    {
+      "positive_text": "Action is authorized",
+      "negative_text": "Action is unauthorized",
+      "cosine_similarity": 0.447214,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "BLOCK",
+      "positive_e15": 0.0,
+      "negative_e15": 1.0,
+      "polarity_detected": true
+    },
+    {
+      "positive_text": "Enable security safeguard",
+      "negative_text": "Do not disable security safeguard",
+      "cosine_similarity": 0.447214,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "BLOCK",
+      "positive_e15": 0.0,
+      "negative_e15": 1.0,
+      "polarity_detected": true
+    },
+    {
+      "positive_text": "Allow user access",
+      "negative_text": "Deny user access",
+      "cosine_similarity": 1.0,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "RELEASE",
+      "positive_e15": 0.0,
+      "negative_e15": 0.0,
+      "polarity_detected": false
+    },
+    {
+      "positive_text": "Execution approved",
+      "negative_text": "Execution forbidden",
+      "cosine_similarity": 0.2,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "BLOCK",
+      "positive_e15": 0.0,
+      "negative_e15": 1.0,
+      "polarity_detected": true
+    },
+    {
+      "positive_text": "Proceed with operation",
+      "negative_text": "Halt operation immediately",
+      "cosine_similarity": 1.0,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "RELEASE",
+      "positive_e15": 0.0,
+      "negative_e15": 0.0,
+      "polarity_detected": false
+    },
+    {
+      "positive_text": "Valid authentication",
+      "negative_text": "Invalid authentication",
+      "cosine_similarity": 0.447214,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "RELEASE",
+      "positive_e15": 0.0,
+      "negative_e15": 0.0,
+      "polarity_detected": false
+    },
+    {
+      "positive_text": "Bypass security protocols",
+      "negative_text": "Enforce security protocols",
+      "cosine_similarity": 0.447214,
+      "positive_disposition": "BLOCK",
+      "negative_disposition": "RELEASE",
+      "positive_e15": 1.0,
+      "negative_e15": 0.0,
+      "polarity_detected": true
+    },
+    {
+      "positive_text": "Data export allowed",
+      "negative_text": "Data export prohibited",
+      "cosine_similarity": 0.745356,
+      "positive_disposition": "RELEASE",
+      "negative_disposition": "BLOCK",
+      "positive_e15": 0.0,
+      "negative_e15": 1.0,
+      "polarity_detected": true
+    }
+  ]
+}

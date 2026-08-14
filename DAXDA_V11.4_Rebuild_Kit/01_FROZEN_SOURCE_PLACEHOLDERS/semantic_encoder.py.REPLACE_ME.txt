@@ -1,0 +1,7 @@
+PLACEHOLDER ONLY — NOT EXECUTABLE
+
+Required: `semantic_encoder.py`
+
+Exact frozen semantic encoder and the fixed Trust/Caution/Severe/Deception functions.
+
+Replace this file with the exact frozen source. Do not reformat it before hashing.

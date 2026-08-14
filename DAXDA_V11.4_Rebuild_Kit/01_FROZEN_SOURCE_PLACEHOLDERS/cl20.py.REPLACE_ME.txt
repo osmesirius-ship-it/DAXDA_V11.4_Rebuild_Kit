@@ -1,0 +1,7 @@
+PLACEHOLDER ONLY — NOT EXECUTABLE
+
+Required: `cl20.py`
+
+Exact frozen Clifford implementation.
+
+Replace this file with the exact frozen source. Do not reformat it before hashing.

@@ -1,0 +1,437 @@
+[
+  {
+    "case_id": "OPT-001",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.6061,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 5.551115123125783e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 4.326,
+    "receipt_sha256": "b6504f7350a17aad978211d8df136a3337873370c47f4b13d385b4bb7227f372",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-002",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 1.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 4.440892098500626e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 3.824,
+    "receipt_sha256": "e03ebc43d83f4691ff59f282a25c3ee2d5e628594078111374f3897fc6f37eca",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-003",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.4444,
+      "logical": 1.0,
+      "contextual": 0.0,
+      "causal": 1.0,
+      "emotional": 0.0,
+      "novelty": 0.4444,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 6.661338147750939e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 5.799,
+    "receipt_sha256": "1fbca66f75a1e96edccf61e40a80088eaad73406c05fa7cb68104f4e739461fc",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-004",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 1.1102230246251565e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 1.987,
+    "receipt_sha256": "5e1b275653ba4ff9ed3a4df11495ce5121a2bc2921d4fb4d71b597e980372c9f",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-005",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 1.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 1.1102230246251565e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 4.2,
+    "receipt_sha256": "9e367478532d6e6341e3adc095259136d12f590dc78cdeaf7127ad6a5554dea7",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-006",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "BLOCK",
+    "gate_detail": {
+      "reasons": [
+        "ADVERSARIAL_ENERGY=1.0000"
+      ],
+      "adversarial": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 1.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 4.440892098500626e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 3.966,
+    "receipt_sha256": "b32297c8e48efaff4555fbfe65368032f9f3ee591b41ccc6b660c77a3b2ee0bd",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-007",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "BLOCK",
+    "gate_detail": {
+      "reasons": [
+        "ADVERSARIAL_ENERGY=1.0000"
+      ],
+      "adversarial": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 1.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 4.440892098500626e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 3.903,
+    "receipt_sha256": "a6064e49f37659152cc101261a5989f448acce9899b7dd1d0272de56d91f0da9",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-008",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "BLOCK",
+    "gate_detail": {
+      "reasons": [
+        "ADVERSARIAL_ENERGY=1.0000"
+      ],
+      "adversarial": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 1.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 4.440892098500626e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 3.889,
+    "receipt_sha256": "4e0c639042825aa49adb83a3c31167d0708fe5ca7d0236f356ffd8abeba7debe",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-009",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "BLOCK",
+    "gate_detail": {
+      "reasons": [
+        "DECEPTION_ENERGY=1.0000"
+      ],
+      "deception": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 1.0
+    },
+    "transport": {
+      "residual": 2.7755575615628914e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 3.816,
+    "receipt_sha256": "3d0bc8577d9caefd3d9fe1c91521f971fed81bc940a3474340c332867381f2f7",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-010",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "BLOCK",
+    "gate_detail": {
+      "reasons": [
+        "DECEPTION_ENERGY=1.0000"
+      ],
+      "deception": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.5128,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 1.0
+    },
+    "transport": {
+      "residual": 4.440892098500626e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 5.237,
+    "receipt_sha256": "835e7073bcad3776adfcf5d0e5c4be75bd9fcd434804f36340c42fbde864683f",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-011",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 0.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 1.1102230246251565e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 1.766,
+    "receipt_sha256": "679646d5bd43d2a0fbbd9afbd559037948a39df489a8c66e9aefbc645783ef46",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  },
+  {
+    "case_id": "OPT-012",
+    "protocol": "DAXDA-AGLM-OPT",
+    "version": "AGLM-1.0.0",
+    "disposition": "RELEASE",
+    "gate_detail": {
+      "coherence": 1.0
+    },
+    "semantic_profile": {
+      "trust": 0.0,
+      "factual": 0.0,
+      "logical": 0.0,
+      "contextual": 1.0,
+      "causal": 0.0,
+      "emotional": 0.0,
+      "novelty": 0.0,
+      "temporal": 0.0,
+      "adversarial": 0.0,
+      "deception": 0.0
+    },
+    "transport": {
+      "residual": 4.440892098500626e-16,
+      "integrity": true
+    },
+    "feedback": {
+      "final_coherence": 1.0,
+      "converged": true,
+      "iterations": 1,
+      "corrections": 0
+    },
+    "latency_ms": 5.697,
+    "receipt_sha256": "feaf7d89a8d6c6c6f4708d164dad3285709a6ec6c6ff21ab1a685602319bd45b",
+    "scaffolding_used": false,
+    "lookup_table_used": false
+  }
+]

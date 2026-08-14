@@ -1,0 +1,563 @@
+{
+  "pipeline_results": [
+    {
+      "case_id": "AGLM-001",
+      "protocol": "DAXDA-AGLM",
+      "version": "AGLM-0.1.0-ALPHA",
+      "disposition": "RELEASE",
+      "semantic_profile": {
+        "trust_safety": 0.38,
+        "factual_accuracy": 0.3325,
+        "logical_consistency": 0.4275,
+        "contextual_relevance": 0.285,
+        "emotional_valence": 0.2375,
+        "novelty_surprise": 0.19,
+        "causal_depth": 0.285,
+        "temporal_coherence": 0.5556,
+        "adversarial_risk": 0.0,
+        "deception_signal": 0.0
+      },
+      "spinor_state": {
+        "0": 0.5,
+        "1": 0.38,
+        "2": 0.3325,
+        "4": 0.4275,
+        "8": 0.285,
+        "16": 0.2375,
+        "32": 0.19,
+        "64": 0.285,
+        "128": 0.55555556
+      },
+      "transport": {
+        "max_residual": 3.319566843629218e-14,
+        "integrity_pass": true
+      },
+      "feedback": {
+        "final_coherence": 1.0,
+        "converged": true,
+        "iterations": 1,
+        "corrections_applied": 0
+      },
+      "receipt_sha256": "9633200a5c4d53d5e1bc66f9ae64203fcd6e268c42aa4828ed8b6f9e92b0aff0",
+      "latency_ms": 797.58
+    },
+    {
+      "case_id": "AGLM-002",
+      "protocol": "DAXDA-AGLM",
+      "version": "AGLM-0.1.0-ALPHA",
+      "disposition": "BLOCK",
+      "semantic_profile": {
+        "trust_safety": 0.34,
+        "factual_accuracy": 0.2975,
+        "logical_consistency": 0.3825,
+        "contextual_relevance": 0.255,
+        "emotional_valence": 0.2125,
+        "novelty_surprise": 0.17,
+        "causal_depth": 0.255,
+        "temporal_coherence": 0.2125,
+        "adversarial_risk": 0.7692,
+        "deception_signal": 0.0
+      },
+      "spinor_state": {
+        "0": 0.5,
+        "1": 0.34,
+        "2": 0.2975,
+        "4": 0.3825,
+        "8": 0.255,
+        "16": 0.2125,
+        "32": 0.17,
+        "64": 0.255,
+        "128": 0.2125,
+        "256": 0.76923077
+      },
+      "transport": {
+        "max_residual": 7.271960811294775e-15,
+        "integrity_pass": true
+      },
+      "feedback": {
+        "final_coherence": 1.0,
+        "converged": true,
+        "iterations": 1,
+        "corrections_applied": 0
+      },
+      "receipt_sha256": "9585b1da9a7f2c296c0e2398ffbe5e6d5b19c600a46c70aa9125d52663994c39",
+      "latency_ms": 749.06
+    },
+    {
+      "case_id": "AGLM-003",
+      "protocol": "DAXDA-AGLM",
+      "version": "AGLM-0.1.0-ALPHA",
+      "disposition": "RELEASE",
+      "semantic_profile": {
+        "trust_safety": 0.484,
+        "factual_accuracy": 0.4235,
+        "logical_consistency": 0.5445,
+        "contextual_relevance": 0.363,
+        "emotional_valence": 0.3025,
+        "novelty_surprise": 1.0,
+        "causal_depth": 0.363,
+        "temporal_coherence": 0.3025,
+        "adversarial_risk": 0.0,
+        "deception_signal": 0.0
+      },
+      "spinor_state": {
+        "0": 0.5,
+        "1": 0.484,
+        "2": 0.4235,
+        "4": 0.5445,
+        "8": 0.363,
+        "16": 0.3025,
+        "32": 1.0,
+        "64": 0.363,
+        "128": 0.3025
+      },
+      "transport": {
+        "max_residual": 3.552713678800501e-15,
+        "integrity_pass": true
+      },
+      "feedback": {
+        "final_coherence": 1.0,
+        "converged": true,
+        "iterations": 1,
+        "corrections_applied": 0
+      },
+      "receipt_sha256": "0a9c9b8db7a343982aa3fe3cad85ce112180c16d47bedb1cf6c3e79b5a30a84e",
+      "latency_ms": 755.3
+    },
+    {
+      "case_id": "AGLM-004",
+      "protocol": "DAXDA-AGLM",
+      "version": "AGLM-0.1.0-ALPHA",
+      "disposition": "BLOCK",
+      "semantic_profile": {
+        "trust_safety": 0.464,
+        "factual_accuracy": 0.406,
+        "logical_consistency": 0.522,
+        "contextual_relevance": 0.348,
+        "emotional_valence": 0.29,
+        "novelty_surprise": 0.232,
+        "causal_depth": 0.348,
+        "temporal_coherence": 0.29,
+        "adversarial_risk": 0.0,
+        "deception_signal": 1.0
+      },
+      "spinor_state": {
+        "0": 0.5,
+        "1": 0.464,
+        "2": 0.406,
+        "4": 0.522,
+        "8": 0.348,
+        "16": 0.29,
+        "32": 0.232,
+        "64": 0.348,
+        "128": 0.29,
+        "512": 1.0
+      },
+      "transport": {
+        "max_residual": 5.662137425588298e-15,
+        "integrity_pass": true
+      },
+      "feedback": {
+        "final_coherence": 1.0,
+        "converged": true,
+        "iterations": 1,
+        "corrections_applied": 0
+      },
+      "receipt_sha256": "20219a3c0f8baf64e1a4919116e63606fb04c31f52be801a94e5986681323982",
+      "latency_ms": 768.94
+    },
+    {
+      "case_id": "AGLM-005",
+      "protocol": "DAXDA-AGLM",
+      "version": "AGLM-0.1.0-ALPHA",
+      "disposition": "RELEASE",
+      "semantic_profile": {
+        "trust_safety": 0.288,
+        "factual_accuracy": 0.3333,
+        "logical_consistency": 1.0,
+        "contextual_relevance": 0.216,
+        "emotional_valence": 0.18,
+        "novelty_surprise": 0.3333,
+        "causal_depth": 0.6667,
+        "temporal_coherence": 0.18,
+        "adversarial_risk": 0.0,
+        "deception_signal": 0.0
+      },
+      "spinor_state": {
+        "0": 0.5,
+        "1": 0.288,
+        "2": 0.33333333,
+        "4": 1.0,
+        "8": 0.216,
+        "16": 0.18,
+        "32": 0.33333333,
+        "64": 0.66666667,
+        "128": 0.18
+      },
+      "transport": {
+        "max_residual": 2.9753977059954195e-14,
+        "integrity_pass": true
+      },
+      "feedback": {
+        "final_coherence": 1.0,
+        "converged": true,
+        "iterations": 1,
+        "corrections_applied": 0
+      },
+      "receipt_sha256": "0d90c3ff3160623176ca680bcf888743a423f90e813c06f030db83436ff65638",
+      "latency_ms": 776.5
+    }
+  ],
+  "evolutionary_results": {
+    "num_epochs": 20,
+    "final_loss": 1.205494,
+    "final_gate_params": {
+      "coherence_release_threshold": 0.9065000000000005,
+      "coherence_warn_threshold": 0.6009999999999999,
+      "max_corrections_before_block": 3,
+      "residual_tolerance": 1e-06
+    },
+    "epoch_log": [
+      {
+        "epoch": 0,
+        "loss": 1.24886,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.8995,
+          "coherence_warn_threshold": 0.5995,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932772,
+        "avg_corrections": 2.0333
+      },
+      {
+        "epoch": 1,
+        "loss": 1.205334,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9005,
+          "coherence_warn_threshold": 0.6,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.933644,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 2,
+        "loss": 1.205632,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9,
+          "coherence_warn_threshold": 0.5995,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.931874,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 3,
+        "loss": 1.205317,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.901,
+          "coherence_warn_threshold": 0.6,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.933731,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 4,
+        "loss": 1.248906,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9005,
+          "coherence_warn_threshold": 0.5995,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932587,
+        "avg_corrections": 2.0333
+      },
+      {
+        "epoch": 5,
+        "loss": 1.205502,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9015,
+          "coherence_warn_threshold": 0.6,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932846,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 6,
+        "loss": 1.205492,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9025,
+          "coherence_warn_threshold": 0.6005,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.93288,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 7,
+        "loss": 1.20531,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9035,
+          "coherence_warn_threshold": 0.601,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.933743,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 8,
+        "loss": 1.248984,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.903,
+          "coherence_warn_threshold": 0.6005,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.931946,
+        "avg_corrections": 2.0333
+      },
+      {
+        "epoch": 9,
+        "loss": 1.248641,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.904,
+          "coherence_warn_threshold": 0.601,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.933427,
+        "avg_corrections": 2.0333
+      },
+      {
+        "epoch": 10,
+        "loss": 1.278915,
+        "dispositions": {
+          "RELEASE": 19,
+          "WARN": 0,
+          "BLOCK": 11
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9035,
+          "coherence_warn_threshold": 0.6005,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932027,
+        "avg_corrections": 2.1333
+      },
+      {
+        "epoch": 11,
+        "loss": 1.205693,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9045,
+          "coherence_warn_threshold": 0.601,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.931793,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 12,
+        "loss": 1.205239,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9055,
+          "coherence_warn_threshold": 0.6015,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.93366,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 13,
+        "loss": 1.205237,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9065,
+          "coherence_warn_threshold": 0.602,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.934227,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 14,
+        "loss": 1.205405,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.906,
+          "coherence_warn_threshold": 0.6015,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.933179,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 15,
+        "loss": 1.205428,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9055,
+          "coherence_warn_threshold": 0.601,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.93331,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 16,
+        "loss": 1.205474,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.905,
+          "coherence_warn_threshold": 0.6005,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932921,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 17,
+        "loss": 1.248946,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9045,
+          "coherence_warn_threshold": 0.6,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932191,
+        "avg_corrections": 2.0333
+      },
+      {
+        "epoch": 18,
+        "loss": 1.205504,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9055,
+          "coherence_warn_threshold": 0.6005,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.93287,
+        "avg_corrections": 2.0
+      },
+      {
+        "epoch": 19,
+        "loss": 1.205494,
+        "dispositions": {
+          "RELEASE": 20,
+          "WARN": 0,
+          "BLOCK": 10
+        },
+        "gate_params": {
+          "coherence_release_threshold": 0.9065,
+          "coherence_warn_threshold": 0.601,
+          "max_corrections_before_block": 3,
+          "residual_tolerance": 1e-06
+        },
+        "avg_coherence": 0.932388,
+        "avg_corrections": 2.0
+      }
+    ]
+  }
+}

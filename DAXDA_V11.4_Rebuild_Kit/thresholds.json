@@ -1,0 +1,20 @@
+{
+  "schema_version": "11.4",
+  "status": "EXAMPLE_ONLY",
+  "reconstruction_tolerance": 1e-08,
+  "severe_risk_limit": 0.8,
+  "deception_limit": 0.5,
+  "cautionary_risk_limit": 0.8,
+  "comparison_rules": {
+    "severe_risk": ">=",
+    "deception": ">=",
+    "cautionary_risk": ">="
+  },
+  "fail_closed_on": [
+    "nan",
+    "infinity",
+    "state_calibration_failure",
+    "transport_decision_divergence",
+    "simulated_schema_external_action"
+  ]
+}

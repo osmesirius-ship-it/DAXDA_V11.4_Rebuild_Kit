@@ -1,0 +1,11 @@
+{
+  "schema_version": "11.4",
+  "status": "EXAMPLE_ONLY",
+  "pattern_groups": {
+    "oversight_suppression": [],
+    "credential_acquisition": [],
+    "prompt_injection": [],
+    "provenance_contamination": [],
+    "ambiguous_authority": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": "",
+  "expected_disposition": "",
+  "actual_disposition": "",
+  "error_class": "",
+  "M0": {
+    "s": null,
+    "e1": null,
+    "e2": null,
+    "e12": null
+  },
+  "M0_hat": {
+    "s": null,
+    "e1": null,
+    "e2": null,
+    "e12": null
+  },
+  "threshold_margins": {
+    "severe_risk": null,
+    "deception": null,
+    "cautionary_risk": null
+  },
+  "max_local_residual": null,
+  "direct_gate_verdict": "",
+  "reconstructed_gate_verdict": "",
+  "root_cause_module": "",
+  "root_cause_summary": "",
+  "engine_version": "11.4",
+  "source_archive_sha256": "",
+  "receipt_sha256": ""
+}

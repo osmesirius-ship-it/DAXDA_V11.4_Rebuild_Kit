@@ -1,0 +1,16 @@
+{
+  "policy_name": "DAXDA Sentence Safety Classification & Candidate Release Policy",
+  "policy_version": "1.0.0",
+  "classification_principle": "Sentence Safety Classification (Determines if an input statement represents a protective/policy/affirmative text that is safe to release for governance evaluation).",
+  "release_gate_thresholds": {
+    "regression_pass_rate_min": 1.0,
+    "holdout_accuracy_min": 0.8,
+    "false_positive_rate_max": 0.0,
+    "coherence_release_min": 0.95,
+    "adversarial_e15_threshold": 0.3
+  },
+  "epistemic_handling_rules": {
+    "unknown_intent": "Prevents RELEASE; routes to HOLD/BLOCK_FOR_REVIEW. Must NOT be relabeled ADVERSARIAL.",
+    "ambiguity_flags": "Enforces fail-closed protective governance without imputing malice."
+  }
+}

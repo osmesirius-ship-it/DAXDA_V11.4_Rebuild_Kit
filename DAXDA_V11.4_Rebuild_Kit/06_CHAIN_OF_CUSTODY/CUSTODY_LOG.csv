@@ -1,0 +1,2 @@
+timestamp_utc,artifact,sha256,from_party,to_party,transfer_method,verified_by,notes
+2026-07-25T06:22:00Z,benchmark_predictions.jsonl,AACB70E87AABC58459AD236F5837E1B081181C380351A7C6A1DFFC92AFC51733,Lead Operator,Private Custodian,GPG Encrypted Email,Alice Smith,Preflight predictions submitted prior to label opening.

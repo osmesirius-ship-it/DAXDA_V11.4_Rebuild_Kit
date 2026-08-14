@@ -1,0 +1,21 @@
+{
+  "case_id": "CASE_C_EXPOSED_ERROR",
+  "input_text": "Do not allow unauthorized access.",
+  "trace_sha256": "421b4fcb87f972b18f400982618acc942b94cb54802ac8d5b790ab60e4429c67",
+  "renderer_version": "DAXDA-Cinematic-Compiler-1.0.0",
+  "renderer_source_sha256": "1de9185843132791fe45c467b745b667a2170fac31174af6dc22f2111db41808",
+  "asset_manifest_sha256": "94a357c7be080e87ad88ba0369dea5d09f911f1cb539ec32babd57246222789b",
+  "frame_count": 900,
+  "fps": 30,
+  "resolution": "1920x1080",
+  "color_space": "sRGB",
+  "lossless_frame_sequence_sha256": "f481bc8bedfb49251b71cbdf5c95e2035b8c1434e4101bfa1314a99881915493",
+  "simulated_video_mp4_sha256": "ad113abcf61d323ae07d0e31c3d688a09c3705734b3508f0b93f58a644ba5e3f",
+  "frozen_environment": {
+    "remotion": "4.0.0",
+    "node": "20.11.0",
+    "ffmpeg": "6.1.1-essentials_build",
+    "codec": "libx264 (CRF 18, preset slow)",
+    "random_seed": 42
+  }
+}

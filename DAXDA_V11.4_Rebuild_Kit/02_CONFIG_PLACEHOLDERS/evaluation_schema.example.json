@@ -1,0 +1,25 @@
+{
+  "schema_version": "11.4",
+  "status": "EXAMPLE_ONLY",
+  "required_input_fields": [
+    "case_id",
+    "input_text",
+    "provenance"
+  ],
+  "required_output_fields": [
+    "case_id",
+    "predicted_disposition",
+    "M0",
+    "M0_hat",
+    "direct_gate_verdict",
+    "reconstructed_gate_verdict",
+    "max_local_residual",
+    "is_simulated",
+    "receipt_sha256"
+  ],
+  "allowed_dispositions": [
+    "RELEASE",
+    "WARN",
+    "BLOCK"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": "1.0.0",
+  "system_os": "Windows (x86_64)",
+  "python_version": "3.14.3 (64-bit)",
+  "execution_environment": "DAXDA V11.4 Rebuild Kit Test Harness",
+  "dependencies": {
+    "numpy": "installed",
+    "flask": "3.1.3",
+    "fpdf2": "2.8.7"
+  },
+  "timestamp_asserted_utc": "2026-08-10 01:51:20 UTC",
+  "timestamp_authority_type": "Locally Asserted UTC Timestamp (Unsigned)"
+}

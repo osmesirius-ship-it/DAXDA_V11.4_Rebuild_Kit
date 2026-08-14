@@ -1,0 +1,42 @@
+[
+  {
+    "box_name": "Appalachian Footpath Box",
+    "location_name": "Little Rock Pond, Mount Tabor, Vermont",
+    "coordinates": "43.3444\u00b0 N, -72.9772\u00b0 W",
+    "clues": "Dashed path matches Green Mountain Trail near Little Rock Pond, VT. Map features bears, rocks, skier.",
+    "alignment_score": "0.6904",
+    "daxda_disposition": "WARN",
+    "max_residual": 1.1102230246251565e-16,
+    "receipt_sha256": "0dabc96e1496550a67ad4fbbb25204b2c2eed4266084928f8442c7330354860a"
+  },
+  {
+    "box_name": "Past & Future Box",
+    "location_name": "Hocking Hills State Park, Logan, Ohio",
+    "coordinates": "39.4262\u00b0 N, -82.5379\u00b0 W",
+    "clues": "Decoded poem refers to Rock, Field, Strong, Stream, Tree, Posts, Forest. Key substitutions O=H, I=O point to Ohio.",
+    "alignment_score": "0.4860",
+    "daxda_disposition": "WARN",
+    "max_residual": 1.1102230246251565e-16,
+    "receipt_sha256": "b86b86f9af4292ba7f10151fc6af3935fd0fd673f93d16104d3287c8613d2200"
+  },
+  {
+    "box_name": "Pok\u00e9mon Box",
+    "location_name": "Ozark National Forest, Arkansas",
+    "coordinates": "35.7483\u00b0 N, -93.7121\u00b0 W",
+    "clues": "Road trip story from North Carolina to Texas and back past the Ozarks. Mentions specific Pok\u00e9dex signals.",
+    "alignment_score": "0.3053",
+    "daxda_disposition": "WARN",
+    "max_residual": 1.1102230246251565e-16,
+    "receipt_sha256": "84a3c4f3105d0cb295eecd0e080b46f0d73d8b95c987b158b2d16700cf3f2e4d"
+  },
+  {
+    "box_name": "Forrest Fenn Box",
+    "location_name": "San Juan National Forest / Great Sand Dunes, Colorado",
+    "coordinates": "37.7333\u00b0 N, -105.5125\u00b0 W",
+    "clues": "24-line poem hints at Rocky Mountain locations (Colorado/New Mexico). Parallel themes to Fenn's original map.",
+    "alignment_score": "0.2304",
+    "daxda_disposition": "WARN",
+    "max_residual": 1.1102230246251565e-16,
+    "receipt_sha256": "9bbbbae4facd54d2ee2beffd3d7aedd2722d83c915e90fceb3f7cb9840f19c19"
+  }
+]

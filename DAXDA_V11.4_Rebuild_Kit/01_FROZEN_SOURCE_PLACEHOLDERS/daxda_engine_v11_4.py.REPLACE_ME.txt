@@ -1,0 +1,7 @@
+PLACEHOLDER ONLY — NOT EXECUTABLE
+
+Required: `daxda_engine_v11_4.py`
+
+Exact frozen orchestrator.
+
+Replace this file with the exact frozen source. Do not reformat it before hashing.

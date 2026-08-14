@@ -1,0 +1,6 @@
+DAXDA V11.4 Rebuild Candidate Usage Notice
+=========================================
+
+This code and its associated configuration, schemas, and verification files are provided solely for the purpose of the V11.4 independent rebuild and verification audit.
+
+Copyright (c) 2026 DAXDA.IA team. All rights reserved.

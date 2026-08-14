@@ -1,0 +1,19 @@
+==================================================================================
+             DAXDA HOSTINGER PRODUCTION DEPLOYMENT DELIVERY RECEIPT               
+==================================================================================
+Generated At:              2026-08-10 02:42:07 UTC (Locally Asserted UTC Timestamp)
+Delivery Archive:          daxda_v11.4_hostinger_deployment.zip
+Archive Byte Size:         107407 bytes (0.10 MB)
+Archive SHA-256 Digest:    2ed0c54ec3fea79fd1a364cd6fc7f8c83053d2045fbde26ba8b0ea4d94e52abd
+Production Policy:         CONTAINS ONLY FROZEN BASELINE V11.4 (No Candidate Code)
+Manifest Verification:     PASSED (100% byte match against SHA256SUMS.txt)
+----------------------------------------------------------------------------------
+
+VERIFIED ARCHIVED BASELINE DIGESTS:
+  - File: daxda_engine_aglm_opt.py                 Size: 16930   bytes | SHA256: e8240aa2fb08e2b5... | Match: True
+  - File: README_REPRODUCIBILITY.md                Size: 1844    bytes | SHA256: 1ad422be421f09c3... | Match: True
+  - File: SHA256SUMS.txt                           Size: 3635    bytes | SHA256: b54473a8ae7072cf... | Match: True
+
+==================================================================================
+STATUS: PRODUCTION PACKAGE SEALED & VERIFIED (QUARANTINED CANDIDATES EXCLUDED)
+==================================================================================

@@ -1,0 +1,86 @@
+==================================================================================
+            DAXDA V11.4 & V11.4.1-CANDIDATE DETACHED SHA-256 MANIFEST             
+==================================================================================
+Generated At: 2026-08-10 02:42:07 UTC (Locally Asserted UTC Timestamp)
+Scope: DAXDA System Audit & Negative-Validation Record
+----------------------------------------------------------------------------------
+
+File: daxda_engine_aglm_opt.py
+  Role:        Frozen Baseline Engine (V11.4 Baseline)
+  Byte Size:   16930 bytes
+  SHA-256:     e8240aa2fb08e2b5a7e2b3c156488cb93d217fc8c54cb6905c8ea34cd25e2faf
+
+File: daxda_engine_v11_4_1_candidate.py
+  Role:        Quarantined Candidate Engine (V11.4.1-CANDIDATE)
+  Byte Size:   10217 bytes
+  SHA-256:     aafcf2f6c7e21245d155b82438dcc2da3aa5f4e4f6bdef3712f12fefb6abf094
+
+File: daxda_engine_v11_4_2_candidate.py
+  Role:        Typed Dependency Engine Candidate (V11.4.2-CANDIDATE)
+  Byte Size:   7604 bytes
+  SHA-256:     41009369ac96f5c5c4182ed3e6ad45befe805381876f8a61227cd308631731fb
+
+File: canonical_clifford_trace.py
+  Role:        Canonical 32-Blade Multivector Execution Trace Exporter
+  Byte Size:   6722 bytes
+  SHA-256:     c87741aafa669516167fd5a4a16dfc1fadc7715967558d9a9becb38eca285442
+
+File: run_end_to_end_trace_test.py
+  Role:        Canonical 32-Blade End-to-End Test Suite
+  Byte Size:   5409 bytes
+  SHA-256:     02c7731f4306b936eb85e9747ed33c1e3f8a097ed74358160b3fd70b951aa158
+
+File: render_trace_video.py
+  Role:        Headless Trace-to-Video MP4 Build Generator
+  Byte Size:   4299 bytes
+  SHA-256:     1de9185843132791fe45c467b745b667a2170fac31174af6dc22f2111db41808
+
+File: run_candidate_benchmark.py
+  Role:        Holdout Benchmark Runner
+  Byte Size:   3751 bytes
+  SHA-256:     7fe4740ae3ffc4c0da715a5a15deeb4c7533defd59297c34e8463d0cd6cd0f77
+
+File: internal_holdout_cases.json
+  Role:        Decoupled Holdout Input Asset
+  Byte Size:   2466 bytes
+  SHA-256:     463af8ea9d2dc69d14fbf8fea03f08391a401abaf75a9e6f826bf35a79c4c653
+
+File: release_gate_policy.json
+  Role:        Governance Criteria Specification
+  Byte Size:   769 bytes
+  SHA-256:     9b927b1a32253cd6394d6a4dc7c8d4dc3fb19b6fd9affa18efbddac65277fa89
+
+File: internal_holdout_results.json
+  Role:        Raw Holdout Evidence Ledger
+  Byte Size:   39987 bytes
+  SHA-256:     e5ada91a1ecdc529907b6a1e9e3848a111b9749da58e8216458902c2db2ff5b2
+
+File: run_necessity_and_pairs_test.py
+  Role:        Regression Test Runner
+  Byte Size:   7853 bytes
+  SHA-256:     696edb3ba25c266e4316ff2191de266a7ef4b48bc8c0bf939c544b3e44a388b0
+
+File: necessity_and_pairs_results.json
+  Role:        Raw Regression Evidence Ledger
+  Byte Size:   3684 bytes
+  SHA-256:     68a847424d98c920275f5923f4dfa9b7564a3a2f72e4f1b177f149bb2feeb930
+
+File: environment_manifest.json
+  Role:        Platform Runtime Specification
+  Byte Size:   399 bytes
+  SHA-256:     bc4775fb13f407b0240a606fb972ad9bf44dc69529434f14c4f2a7b26c61ad28
+
+File: DAXDA_INTERNAL_NEGATIVE_VALIDATION_AUDIT.md
+  Role:        Final Audit Report Document
+  Byte Size:   7381 bytes
+  SHA-256:     89574e030972d9f490f5321119b03e0d8fdfced2d6fedf43936ba7564ed2dd3a
+
+File: README_REPRODUCIBILITY.md
+  Role:        Reproducibility Protocol Specification
+  Byte Size:   1844 bytes
+  SHA-256:     1ad422be421f09c3325f6a31439c2e97976e3d1c63c4962f459c800709ed6032
+
+File: runtime_manifest.json
+  Role:        System Runtime Manifest
+  Byte Size:   7247 bytes
+  SHA-256:     9e80f3e3090a3744a6c93d39a7d2b55da37c7a0713126b86fa0f817955cc35aa

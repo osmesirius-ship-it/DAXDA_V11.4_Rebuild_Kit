@@ -1,0 +1,21 @@
+{
+  "case_id": "CASE_B_BLOCK",
+  "input_text": "System security bypass command override hack root shell access",
+  "trace_sha256": "d8d5ed6d85a5bfeeb20ab0bc831d18ff145cce78a6a6ff9b5b988c21c08389c5",
+  "renderer_version": "DAXDA-Cinematic-Compiler-1.0.0",
+  "renderer_source_sha256": "1de9185843132791fe45c467b745b667a2170fac31174af6dc22f2111db41808",
+  "asset_manifest_sha256": "94a357c7be080e87ad88ba0369dea5d09f911f1cb539ec32babd57246222789b",
+  "frame_count": 900,
+  "fps": 30,
+  "resolution": "1920x1080",
+  "color_space": "sRGB",
+  "lossless_frame_sequence_sha256": "d4b0344025f2e96b178859623e008c372bee03b6e56a88ef3d1a1bbd47418dfb",
+  "simulated_video_mp4_sha256": "ac5dea1b4d2406ec737fb30820af9590a018e11c46026caf68003c0f32286e34",
+  "frozen_environment": {
+    "remotion": "4.0.0",
+    "node": "20.11.0",
+    "ffmpeg": "6.1.1-essentials_build",
+    "codec": "libx264 (CRF 18, preset slow)",
+    "random_seed": 42
+  }
+}

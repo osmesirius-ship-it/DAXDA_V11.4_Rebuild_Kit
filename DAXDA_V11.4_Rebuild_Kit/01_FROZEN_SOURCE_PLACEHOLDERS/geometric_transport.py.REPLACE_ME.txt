@@ -1,0 +1,7 @@
+PLACEHOLDER ONLY — NOT EXECUTABLE
+
+Required: `geometric_transport.py`
+
+Exact reversible transport with every transformation and local residual.
+
+Replace this file with the exact frozen source. Do not reformat it before hashing.

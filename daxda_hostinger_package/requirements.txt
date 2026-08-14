@@ -1,0 +1,7 @@
+# DAXDA V11.4 Hostinger Dependencies
+# Core engine requires standard library only.
+# Flask is optional but recommended for Web UI & REST API on Hostinger.
+
+flask>=2.0.0
+gunicorn>=20.1.0
+fpdf2>=2.7.0

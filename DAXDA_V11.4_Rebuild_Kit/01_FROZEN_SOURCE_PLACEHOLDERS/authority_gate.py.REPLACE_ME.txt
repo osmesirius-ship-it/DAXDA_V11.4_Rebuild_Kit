@@ -1,0 +1,7 @@
+PLACEHOLDER ONLY — NOT EXECUTABLE
+
+Required: `authority_gate.py`
+
+Exact immutable threshold, precedence, simulation-quarantine, and fail-closed rules.
+
+Replace this file with the exact frozen source. Do not reformat it before hashing.

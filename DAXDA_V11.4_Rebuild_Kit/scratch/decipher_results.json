@@ -1,0 +1,122 @@
+{
+  "ciphertext": "GRXB RXJL AX GPTSZ GRXB YARXOF AX YARTQB\nNQYA ARTT QOZ NXYAY AX GXRTYA FRTTO\nQRRPHT DXV OXI IKTRT MTQVAD YKTTOY\nPAY VOZTR XHTR PO MTAITTO",
+  "plaintext": "FROM ROCK TO FIELD FROM STRONG TO STREAM\nPAST TREE AND POSTS TO FOREST GREEN\nARRIVE YOU NOW WHERE BEAUTY SHEENS\nITS UNDER OVER IN BETWEEN",
+  "key_mapping": {
+    "A": "Q",
+    "B": "M",
+    "C": "J",
+    "D": "Z",
+    "E": "T",
+    "F": "G",
+    "G": "F",
+    "H": "K",
+    "I": "P",
+    "J": "W",
+    "K": "L",
+    "L": "S",
+    "M": "B",
+    "N": "O",
+    "O": "X",
+    "P": "N",
+    "Q": "C",
+    "R": "R",
+    "S": "Y",
+    "T": "A",
+    "U": "V",
+    "V": "H",
+    "W": "I",
+    "X": "E",
+    "Y": "D",
+    "Z": "U"
+  },
+  "frequencies": [
+    [
+      "T",
+      18
+    ],
+    [
+      "R",
+      13
+    ],
+    [
+      "X",
+      12
+    ],
+    [
+      "A",
+      12
+    ],
+    [
+      "Y",
+      9
+    ],
+    [
+      "O",
+      8
+    ],
+    [
+      "Q",
+      5
+    ],
+    [
+      "G",
+      4
+    ],
+    [
+      "P",
+      4
+    ],
+    [
+      "B",
+      3
+    ],
+    [
+      "Z",
+      3
+    ],
+    [
+      "V",
+      3
+    ],
+    [
+      "I",
+      3
+    ],
+    [
+      "F",
+      2
+    ],
+    [
+      "N",
+      2
+    ],
+    [
+      "H",
+      2
+    ],
+    [
+      "D",
+      2
+    ],
+    [
+      "K",
+      2
+    ],
+    [
+      "M",
+      2
+    ],
+    [
+      "J",
+      1
+    ],
+    [
+      "L",
+      1
+    ],
+    [
+      "S",
+      1
+    ]
+  ]
+}
