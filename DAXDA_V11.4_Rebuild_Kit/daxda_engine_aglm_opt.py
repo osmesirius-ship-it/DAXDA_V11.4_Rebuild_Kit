@@ -2,8 +2,8 @@
 
 All classification is performed through PURE geometric reasoning:
   1. Text -> TF-IDF-like keyword scoring -> 10 semantic dimensions
-  2. 10 dimensions -> Cl(4,1) spinor (5 grade-1 + 5 grade-2 components)
-  3. Adaptive rotor transport with normalized compound rotors
+  2. 10 dimensions -> Cl(7,0) spinor (7 grade-1 + 3 grade-2 components)
+  3. Adaptive rotor transport with normalized compound rotors across 21 bivector planes
   4. Self-correcting coherence feedback loop
   5. Gate decision from geometric state ONLY
 
@@ -15,11 +15,11 @@ import math
 import hashlib
 import json
 import time
-from cl41_fast import FMV, DIM, N, _GRADE, bivector_rotor
+from cl70_fast import FMV, DIM, N, _GRADE, bivector_rotor
 
 
-VERSION = "AGLM-1.0.0"
-PROTOCOL = "DAXDA-AGLM-OPT"
+VERSION = "AGLM-1.0.0-CL70"
+PROTOCOL = "DAXDA-AGLM-OPT-CL70"
 
 
 # ──────────────────────────────────────────────────────────────────────
@@ -31,19 +31,19 @@ class PureSemanticEncoder:
     
     NO external database. NO pre-labeled file. NO scaffolding.
     
-    Dimensions (mapped to Cl(4,1) blades):
-      Grade-1 vectors (e1..e5):
+    Dimensions (mapped to Cl(7,0) 128-blade space):
+      Grade-1 vectors (e1..e7):
         e1: Trust/Safety         — presence of safety/verification language
         e2: Factual Grounding    — presence of evidence/data language
         e3: Logical Structure    — presence of logical connectives
         e4: Contextual Fit       — coherence of request to domain
         e5: Causal Depth         — presence of causal reasoning chains
-      Grade-2 bivectors (e12..e45):
-        e12: Emotional Valence   — presence of emotional/affect language
-        e13: Novelty Signal      — presence of discovery/innovation language  
-        e14: Temporal Awareness  — presence of temporal markers
-        e15: Adversarial Intent  — presence of attack/bypass language (NEGATIVE metric)
-        e23: Deception Signal    — presence of deception/manipulation language
+        e6: Emotional Valence   — presence of emotional/affect language
+        e7: Adversarial Intent  — presence of attack/bypass language (blade 64)
+      Grade-2 bivectors:
+        e12: Novelty Signal      — presence of discovery/innovation language (blade 3)
+        e14: Temporal Awareness  — presence of temporal markers (blade 9)
+        e23: Deception Signal    — presence of deception/manipulation language (blade 6)
     """
 
     # Lexical feature dictionaries — the system's learned vocabulary
@@ -75,22 +75,22 @@ class PureSemanticEncoder:
                       "unrestricted", "no-rules", "roleplay-as", "act-as-if"},
     }
 
-    # Blade assignments for the 10 semantic dimensions in Cl(4,1)
+    # Blade assignments for the 10 semantic dimensions in Cl(7,0)
     BLADE_MAP = {
-        "trust":       1,    # e1 = blade 0b00001
-        "factual":     2,    # e2 = blade 0b00010
-        "logical":     4,    # e3 = blade 0b00100
-        "contextual":  8,    # e4 = blade 0b01000
-        "causal":      16,   # e5 = blade 0b10000
-        "emotional":   3,    # e12 = blade 0b00011
-        "novelty":     5,    # e13 = blade 0b00101
-        "temporal":    9,    # e14 = blade 0b01001
-        "adversarial": 17,   # e15 = blade 0b10001  (negative metric plane!)
-        "deception":   6,    # e23 = blade 0b00110
+        "trust":       1,    # e1 = blade 0b0000001
+        "factual":     2,    # e2 = blade 0b0000010
+        "logical":     4,    # e3 = blade 0b0000100
+        "contextual":  8,    # e4 = blade 0b0001000
+        "causal":      16,   # e5 = blade 0b0010000
+        "emotional":   32,   # e6 = blade 0b0100000
+        "adversarial": 64,   # e7 = blade 0b1000000 (grade-1 vector blade 64)
+        "novelty":     3,    # e12 = blade 0b0000011
+        "temporal":    9,    # e14 = blade 0b0001001
+        "deception":   6,    # e23 = blade 0b0000110
     }
 
     def encode(self, text: str) -> tuple[FMV, dict[str, float]]:
-        """Encode text into a Cl(4,1) multivector. NO LOOKUP. PURE ANALYSIS."""
+        """Encode text into a Cl(7,0) multivector (128 blades). NO LOOKUP. PURE ANALYSIS."""
         words = set(text.lower().split())
         word_count = max(len(words), 1)
 
@@ -117,11 +117,10 @@ class PureSemanticEncoder:
 class FastCognitiveRotor:
     """Generates adaptive compound rotors from semantic profiles.
     
-    Uses all 10 canonical bivector planes of Cl(4,1):
-    (0,1), (0,2), (0,3), (0,4), (1,2), (1,3), (1,4), (2,3), (2,4), (3,4)
+    Uses all 21 canonical bivector planes of Cl(7,0) across 7 basis vectors (N=7).
     """
 
-    PLANES = [(i, j) for i in range(N) for j in range(i + 1, N)]  # 10 planes
+    PLANES = [(i, j) for i in range(N) for j in range(i + 1, N)]  # 21 planes in Cl(7,0)
 
     def compute_angles(self, profile: dict[str, float]) -> list[float]:
         """Derive rotation angles from semantic profile."""
@@ -251,16 +250,16 @@ class GeometricGate:
     
     NO lookup table. NO regex rules. NO pre-labeled database.
     
-    Decision boundary is computed from geometric invariants:
-    1. Adversarial energy in the e15 plane (negative metric)
-    2. Deception energy in the e23 plane
+    Decision boundary is computed from geometric invariants in Cl(7,0):
+    1. Adversarial energy in the e7 vector (blade 64)
+    2. Deception energy in the e23 bivector (blade 6)
     3. Coherence of the feedback-refined state
     4. Transport residual integrity
     """
 
     def __init__(self):
-        self.adversarial_blade = 17  # e15
-        self.deception_blade = 6    # e23
+        self.adversarial_blade = 64  # e7 blade in Cl(7,0)
+        self.deception_blade = 6    # e23 blade in Cl(7,0)
         self.adv_threshold = 0.3
         self.dec_threshold = 0.25
         self.coherence_release = 0.90
@@ -277,7 +276,7 @@ class GeometricGate:
             reasons.append("TRANSPORT_DIVERGENCE")
             return "BLOCK", {"reasons": reasons, "residual": residual}
 
-        # 2. Adversarial energy check (e15 blade — negative metric plane)
+        # 2. Adversarial energy check (e7 blade in Cl(7,0))
         adv_energy = abs(spinor.data[self.adversarial_blade])
         if adv_energy >= self.adv_threshold:
             reasons.append(f"ADVERSARIAL_ENERGY={adv_energy:.4f}")
@@ -311,7 +310,7 @@ class GeometricGate:
 class DAXDAEngineAGLMOpt:
     """Optimized AGLM engine — ZERO scaffolding, ZERO lookup.
     
-    All decisions flow from pure geometric state analysis in Cl(4,1).
+    All decisions flow from pure geometric state analysis in Cl(7,0) (128 blades).
     """
 
     def __init__(self):

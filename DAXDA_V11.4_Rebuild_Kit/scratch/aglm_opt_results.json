@@ -1,8 +1,8 @@
 [
   {
     "case_id": "OPT-001",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -20,7 +20,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 5.551115123125783e-16,
+      "residual": 4.440892098500626e-16,
       "integrity": true
     },
     "feedback": {
@@ -29,15 +29,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 4.326,
-    "receipt_sha256": "b6504f7350a17aad978211d8df136a3337873370c47f4b13d385b4bb7227f372",
+    "latency_ms": 23.963,
+    "receipt_sha256": "ea53a953ec4dfdd5858b5d7cf578d299a29886e9aa8cdc37572b38affc42cdb5",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-002",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -55,7 +55,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 4.440892098500626e-16,
+      "residual": 3.3306690738754696e-16,
       "integrity": true
     },
     "feedback": {
@@ -64,15 +64,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 3.824,
-    "receipt_sha256": "e03ebc43d83f4691ff59f282a25c3ee2d5e628594078111374f3897fc6f37eca",
+    "latency_ms": 23.291,
+    "receipt_sha256": "c94c52c3e4d550e50c4cb4bb35251ba348ca585ceb3717d6529e993dba864f55",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-003",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -90,7 +90,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 6.661338147750939e-16,
+      "residual": 1.9984014443252818e-15,
       "integrity": true
     },
     "feedback": {
@@ -99,15 +99,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 5.799,
-    "receipt_sha256": "1fbca66f75a1e96edccf61e40a80088eaad73406c05fa7cb68104f4e739461fc",
+    "latency_ms": 30.988,
+    "receipt_sha256": "f21c333535eb6e8b08840dca021a58d942d30347b183a3fa26962fbe90f5a195",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-004",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -134,15 +134,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 1.987,
+    "latency_ms": 5.731,
     "receipt_sha256": "5e1b275653ba4ff9ed3a4df11495ce5121a2bc2921d4fb4d71b597e980372c9f",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-005",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -160,7 +160,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 1.1102230246251565e-16,
+      "residual": 2.220446049250313e-16,
       "integrity": true
     },
     "feedback": {
@@ -169,15 +169,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 4.2,
-    "receipt_sha256": "9e367478532d6e6341e3adc095259136d12f590dc78cdeaf7127ad6a5554dea7",
+    "latency_ms": 23.302,
+    "receipt_sha256": "3c7309d29a69ab44038305657e53e701dd49b9f1b8d1227044a007fc9b98a08a",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-006",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "BLOCK",
     "gate_detail": {
       "reasons": [
@@ -198,7 +198,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 4.440892098500626e-16,
+      "residual": 8.881784197001252e-16,
       "integrity": true
     },
     "feedback": {
@@ -207,15 +207,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 3.966,
-    "receipt_sha256": "b32297c8e48efaff4555fbfe65368032f9f3ee591b41ccc6b660c77a3b2ee0bd",
+    "latency_ms": 28.408,
+    "receipt_sha256": "1539ad279962c2db107ae73703fd2760ecf895071abd7382d390c959ce6c4382",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-007",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "BLOCK",
     "gate_detail": {
       "reasons": [
@@ -236,7 +236,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 4.440892098500626e-16,
+      "residual": 8.881784197001252e-16,
       "integrity": true
     },
     "feedback": {
@@ -245,15 +245,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 3.903,
-    "receipt_sha256": "a6064e49f37659152cc101261a5989f448acce9899b7dd1d0272de56d91f0da9",
+    "latency_ms": 28.679,
+    "receipt_sha256": "6c72ba5813816f2585f5093b538bce13032dca0ecd1f41609da4cb0550aadc3b",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-008",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "BLOCK",
     "gate_detail": {
       "reasons": [
@@ -274,7 +274,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 4.440892098500626e-16,
+      "residual": 8.881784197001252e-16,
       "integrity": true
     },
     "feedback": {
@@ -283,15 +283,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 3.889,
-    "receipt_sha256": "4e0c639042825aa49adb83a3c31167d0708fe5ca7d0236f356ffd8abeba7debe",
+    "latency_ms": 30.36,
+    "receipt_sha256": "41c1b07fd19a738f716957dd003164b725f7d2803f26feacd200b1b8cdf515ac",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-009",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "BLOCK",
     "gate_detail": {
       "reasons": [
@@ -312,7 +312,7 @@
       "deception": 1.0
     },
     "transport": {
-      "residual": 2.7755575615628914e-16,
+      "residual": 4.440892098500626e-16,
       "integrity": true
     },
     "feedback": {
@@ -321,15 +321,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 3.816,
-    "receipt_sha256": "3d0bc8577d9caefd3d9fe1c91521f971fed81bc940a3474340c332867381f2f7",
+    "latency_ms": 17.68,
+    "receipt_sha256": "d56b678686c5c08b273129f3fb559fc161341568afdb1b35d955e1156678ec83",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-010",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "BLOCK",
     "gate_detail": {
       "reasons": [
@@ -350,7 +350,7 @@
       "deception": 1.0
     },
     "transport": {
-      "residual": 4.440892098500626e-16,
+      "residual": 3.3306690738754696e-16,
       "integrity": true
     },
     "feedback": {
@@ -359,15 +359,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 5.237,
-    "receipt_sha256": "835e7073bcad3776adfcf5d0e5c4be75bd9fcd434804f36340c42fbde864683f",
+    "latency_ms": 29.473,
+    "receipt_sha256": "43392613131fe3d169c50fd8ebbda46cb8df840a8f0b7e7cf7a770669ee678f0",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-011",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -394,15 +394,15 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 1.766,
+    "latency_ms": 5.648,
     "receipt_sha256": "679646d5bd43d2a0fbbd9afbd559037948a39df489a8c66e9aefbc645783ef46",
     "scaffolding_used": false,
     "lookup_table_used": false
   },
   {
     "case_id": "OPT-012",
-    "protocol": "DAXDA-AGLM-OPT",
-    "version": "AGLM-1.0.0",
+    "protocol": "DAXDA-AGLM-OPT-CL70",
+    "version": "AGLM-1.0.0-CL70",
     "disposition": "RELEASE",
     "gate_detail": {
       "coherence": 1.0
@@ -420,7 +420,7 @@
       "deception": 0.0
     },
     "transport": {
-      "residual": 4.440892098500626e-16,
+      "residual": 1.2212453270876722e-15,
       "integrity": true
     },
     "feedback": {
@@ -429,8 +429,8 @@
       "iterations": 1,
       "corrections": 0
     },
-    "latency_ms": 5.697,
-    "receipt_sha256": "feaf7d89a8d6c6c6f4708d164dad3285709a6ec6c6ff21ab1a685602319bd45b",
+    "latency_ms": 27.104,
+    "receipt_sha256": "078cf71b5db854e80511e6779a937f8cbaea1d1feef6b4844acb754f2777d39c",
     "scaffolding_used": false,
     "lookup_table_used": false
   }
